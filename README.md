@@ -12,4 +12,10 @@ Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do
 
 Superamostragem e formatação do sinal.
 
-- [formatacao_do_sinal.m](https://github.com/yanmartins/CSF29008/blob/master/formatacao_do_sinal.m)
+- [formatacao_do_sinal.m](https://github.com/yanmartins/COM29007/blob/master/formatacao_do_sinal.m)
+
+### 16/set/2019
+
+Tratando a recepção do sinal com ruído.
+
+- [recepcao_com_ruido.m](https://github.com/yanmartins/COM29007/blob/master/recepcao_com_ruido.m)
