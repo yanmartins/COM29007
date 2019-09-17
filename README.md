@@ -10,12 +10,12 @@ Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do
 
 ### 13/set/2019
 
-Superamostragem e formatação do sinal.
+PCM, sinalização binária e multinível. Superamostragem, formatação do sinal, amostragem e quantização.
 
 - [formatacao_do_sinal.m](https://github.com/yanmartins/COM29007/blob/master/formatacao_do_sinal.m)
 
 ### 16/set/2019
 
-Tratando a recepção do sinal com ruído.
+PCM, sinalização binária e multinível. Detecção de sinais binários em um canal AWGN.
 
 - [recepcao_com_ruido.m](https://github.com/yanmartins/COM29007/blob/master/recepcao_com_ruido.m)
