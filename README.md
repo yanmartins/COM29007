@@ -19,3 +19,9 @@ PCM, sinalização binária e multinível. Superamostragem, formatação do sina
 PCM, sinalização binária e multinível. Detecção de sinais binários em um canal AWGN.
 
 - [recepcao_com_ruido.m](https://github.com/yanmartins/COM29007/blob/master/recepcao_com_ruido.m)
+
+### 18/set/2019
+
+Desempenho sinal ruído. Limitando potência de ruído.
+
+- [tratando_sinal_recv.m](https://github.com/yanmartins/COM29007/blob/master/tratando_sinal_recv.m)
