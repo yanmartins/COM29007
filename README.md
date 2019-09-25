@@ -22,7 +22,7 @@ PCM, sinalização binária e multinível. Detecção de sinais binários em um 
 
 ### 18/set/2019
 
-Desempenho sinal x ruído. Limitando potência do ruído através de um filtro na recepção.
+Desempenho sinal x ruído. Limitando potência do ruído através de um filtro passa baixa na recepção.
 
 - [tratando_sinal_recv.m](https://github.com/yanmartins/COM29007/blob/master/tratando_sinal_recv.m)
 
@@ -31,3 +31,10 @@ Desempenho sinal x ruído. Limitando potência do ruído através de um filtro n
 Comparação do desempenho de erros de duas sinalizações.
 
 - [desempenho_2_sinalizacoes.m](https://github.com/yanmartins/COM29007/blob/master/desempenho_2_sinalizacoes.m)
+
+
+### 25/set/2019
+
+Correlação e filtro casado.
+
+- [filtro_casado.m](https://github.com/yanmartins/COM29007/blob/master/filtro_casado.m)
