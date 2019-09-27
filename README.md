@@ -38,3 +38,9 @@ Comparação do desempenho de erros de duas sinalizações.
 Correlação e filtro casado.
 
 - [filtro_casado.m](https://github.com/yanmartins/COM29007/blob/master/filtro_casado.m)
+
+### 27/set/2019
+
+Probabilidade de erro para sinalização binária, teórica.
+
+- [prob_erro_sinali_binaria.m](https://github.com/yanmartins/COM29007/blob/master/prob_erro_sinali_binaria.m)
