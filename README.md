@@ -4,6 +4,10 @@
 
 Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do curso de Engenharia de Telecomunicações do Instituto Federal de Santa Catarina - câmpus São José, realizada em 2019.2
 
+# Laboratórios
+
+ - [Lab 3 -Transmissão binária e análise de desempenho de erro](https://github.com/yanmartins/COM29007/blob/master/Lab 3 - Transmissão binária e análise de desempenho de erro)
+
 # Aulas
 
 ## SETEMBRO
