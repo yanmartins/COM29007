@@ -6,7 +6,7 @@ Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do
 
 # Laboratórios
 
- - [Lab 3 -Transmissão binária e análise de desempenho de erro](https://github.com/yanmartins/COM29007/tree/master/Lab%203%20-%20Transmiss%C3%A3o%20bin%C3%A1ria%20e%20an%C3%A1lise%20de%20desempenho%20de%20erro)
+ - [Lab 3 -Transmissão binária e análise de desempenho de erro](https://github.com/yanmartins/COM29007/tree/master/Lab3)
 
 # Aulas
 

@@ -6,8 +6,8 @@ N = 10;            % Fator de superamostragem, número de amostras por simbolo
 M = 2;              % Número de níves de transmissão
 l = log2(M);        % Quantidade de bits por nível de transmissão
 
-t_final = 1;        % tempo em segundos
-Rb = 1e3;           % taxa de transmissão
+t_final = 10;        % tempo em segundos
+Rb = 64e3;           % taxa de transmissão
 Rs = Rb/l;    % taxa de transmissão de símbolos
 
 fa = Rb*N;          % Frequência de amostragem
@@ -67,3 +67,10 @@ subplot(313)
 plot(t, info_rx_filter)
 xlim([0 10e-3])
 title('Sinal recebido filtrado')
+
+% Observando a banda do canal
+info_tx_f = fftshift(fft(info_tx));
+f = [-(Rs*N)/2:1/N:(Rs*N)/2-(1/N)];
+figure,
+plot(f, abs(info_tx_f).^2)
+title('Espectro de potência do sinal transmitido')
