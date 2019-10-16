@@ -48,3 +48,9 @@ Correlação e filtro casado.
 Probabilidade de erro para sinalização binária, teórica.
 
 - [prob_erro_sinali_binaria.m](https://github.com/yanmartins/COM29007/blob/master/prob_erro_sinali_binaria.m)
+
+## OUTUBRO
+
+### 16/out/2019
+
+- [tx_rx_NRZ.m](https://github.com/yanmartins/COM29007/blob/master/tx_rx_NRZ.m)
