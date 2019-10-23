@@ -54,3 +54,7 @@ Probabilidade de erro para sinalização binária, teórica.
 ### 16/out/2019
 
 - [tx_rx_NRZ.m](https://github.com/yanmartins/COM29007/blob/master/tx_rx_NRZ.m)
+
+# 23/out/2019
+
+- [mod_psk_ask_fsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_psk_ask_fsk.m)
