@@ -55,6 +55,9 @@ Probabilidade de erro para sinalização binária, teórica.
 
 - [tx_rx_NRZ.m](https://github.com/yanmartins/COM29007/blob/master/tx_rx_NRZ.m)
 
-# 23/out/2019
+### 23/out/2019 - 26/out/2019
+
+Tipos de modulações digitais: PSK, ASK e FSK.
 
 - [mod_psk_ask_fsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_psk_ask_fsk.m)
+- [mod_psk.m](https://github.com/yanmartins/COM29007/blob/master/mod_psk.m)

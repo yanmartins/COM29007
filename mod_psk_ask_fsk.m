@@ -2,34 +2,33 @@ close all;
 clear all;
 clc;
 
-t = [0:1/100e3:10e-3];
+N = 100;
+M = 2;
+fc = 10e3;
+info = randint(1,10,M);
 
-f1 = 1e3;
-f2 = 2e3;
+passo = ((2*length(info))/fc)/(length(info)*N);
+info_format = rectpulse(info, N);
+t = [0:passo:((2*length(info))/fc)-passo];
 
-f = [f1 f2]';
-A = [1 2]';
-
-% Modulação PSK
-s_psk1 = cos(2*pi*f1*t + 0);
-s_psk2 = cos(2*pi*f1*t + pi/2);
-
-% Modulação FSK
-s_fsk = cos(2*pi*f*t);
-
-% Modulação ASK
-s_ask = A*cos(2*pi*f1*t);
+s_t_PSK = ((info_format*2)-1).*cos(2*pi*t*fc);
+s_t_ASK = (info_format).*cos(2*pi*t*fc);
+s_t_FSK = (cos(2*pi*t*fc.*(info_format+1)));
 
 figure,
-subplot(311)
-plot(t, s_psk1); hold on;
-plot(t, s_psk2)
+subplot(411)
+plot(info_format)
+title('Informação')
+ylim([0 1.5])
+
+subplot(412)
+plot(t, s_t_PSK)
 title('Modulação PSK')
 
-subplot(312)
-plot(t, s_fsk')
-title('Modulação FSK')
-
-subplot(313)
-plot(t, s_ask)
+subplot(413)
+plot(t, s_t_ASK)
 title('Modulação ASK')
+
+subplot(414)
+plot(t, s_t_FSK')
+title('Modulação FSK')
