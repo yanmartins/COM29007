@@ -1,4 +1,4 @@
-**Instituto Federal de Santa Catarina**
+﻿**Instituto Federal de Santa Catarina**
 
 # Sistemas de Comunicação I
 
@@ -6,7 +6,8 @@ Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do
 
 # Laboratórios
 
- - [Lab 3 -Transmissão binária e análise de desempenho de erro](https://github.com/yanmartins/COM29007/tree/master/Lab3)
+ - [Lab 3 - Quantização e codificação de sinal de áudio](https://github.com/yanmartins/COM29007/tree/master/Lab3)
+ - [Lab 4 -Transmissão binária e análise de desempenho de erro](https://github.com/yanmartins/COM29007/tree/master/Lab4)
 
 # Aulas
 
