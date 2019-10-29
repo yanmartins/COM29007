@@ -62,3 +62,9 @@ Tipos de modulações digitais: PSK, ASK e FSK.
 
 - [mod_psk_ask_fsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_psk_ask_fsk.m)
 - [mod_psk.m](https://github.com/yanmartins/COM29007/blob/master/mod_psk.m)
+
+## 29/out/2019
+
+Processos de uma modulação QAM.
+
+- [mod_qam.m](https://github.com/yanmartins/COM29007/blob/master/mod_qam.m)
