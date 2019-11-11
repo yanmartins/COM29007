@@ -56,7 +56,7 @@ Probabilidade de erro para sinalização binária, teórica.
 
 - [tx_rx_NRZ.m](https://github.com/yanmartins/COM29007/blob/master/tx_rx_NRZ.m)
 
-### 23/out/2019 - 26/out/2019
+### 23/out/2019 - 25/out/2019
 
 Tipos de modulações digitais: PSK, ASK e FSK.
 
@@ -76,3 +76,9 @@ Processos de uma modulação QAM.
 Continuação da modulação QAM.
 
 - [mod_qam.m](https://github.com/yanmartins/COM29007/blob/master/mod_qam.m)
+
+## 11/nov/2019
+
+Modulação BFSK com detecção não coerente.
+
+-[mod_bfsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_bfsk.m)
