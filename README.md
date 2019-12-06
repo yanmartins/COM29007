@@ -11,7 +11,7 @@ apt-get install octave-signal
 apt-get install octave-communications
 ```
 
-O pacote `communications` não possui a função rectpulse implementada, para isso, foi utiliza a implementação de [Horacio Sanson](https://github.com/hsanson/scde/blob/master/src/rectpulse.m):
+O pacote `communications` não possui a função `rectpulse` implementada. Portanto, para alguns códigos, foi utilizada a implementação de [Horacio Sanson](https://github.com/hsanson/scde/blob/master/src/rectpulse.m):
 
 - [rectpulse.m](https://github.com/yanmartins/COM29007/blob/master/rectpulse.m)
 
