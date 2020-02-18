@@ -4,7 +4,7 @@
 
 Repositório para uso na disciplina de Sistemas de Comunicação I (COM29007) do curso de Engenharia de Telecomunicações do Instituto Federal de Santa Catarina - câmpus São José, realizada em 2019.2
 
-Para o Octave, é necessário instalar alguns pacotes. Para isso, no Octave execute:
+Para o Octave, é necessário instalar alguns pacotes:
 
 ```
 apt-get install octave-signal
@@ -93,4 +93,4 @@ Continuação da modulação QAM.
 
 Modulação BFSK com detecção não coerente.
 
--[mod_bfsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_bfsk.m)
+- [mod_bfsk.m](https://github.com/yanmartins/COM29007/blob/master/mod_bfsk.m)
